@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+table{
+    margin-bottom: 30px;
+}
+
+table, td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+}
+
+ul li{
+    list-style: none;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0;
+}
+
+
+#contenedor{
+    width: 90%;
+    margin: 30px auto;
+}
+
+#contenedor ol{
+    width: 30%;
+    margin: 20px auto;
+}
+
+#contenedor ol li{
+    list-style: decimal;
+    margin: 10px 50px;
+}
+
+#contenedor > p.enlace{
+    text-align: center;
+    margin: 30px auto;
+}
+
+header h1, footer p{
+    text-align: center;
+    margin: 30px auto;
+}
+
+.par{
+    background: blue;
+    color: white;
+}
+
+.impar{
+    background: red;
+    color: black;
+}
+
